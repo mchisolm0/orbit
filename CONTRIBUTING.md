@@ -9,6 +9,7 @@
 3. Install the Node packages (`yarn install`)
 4. Build `common-types`, `eas-shared` and `cli` by running `yarn build` at the root of the project
 5. Inside the `apps/cli` directory run `yarn archive` to generate the standalone executable used by the `menu-bar`
+   - On Linux, install ldid and add it to your PATH before running `yarn archive`
 6. Finally, run `yarn update-cli` inside the `apps/menu-bar` directory to update the local cli file
 
 ## 🏎️ Start the Development environment
