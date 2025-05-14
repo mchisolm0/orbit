@@ -6,11 +6,16 @@
 
 ### 🎉 New features
 
+- Add warning when developer mode is disabled on iOS. ([#250](https://github.com/expo/orbit/pull/250) by [@gabrieldonadel](https://github.com/gabrieldonadel))
+
 ### 🐛 Bug fixes
+
+- Fix "no such file" error when opening cached builds. ([#256](https://github.com/expo/orbit/pull/256) by [@gabrieldonadel](https://github.com/gabrieldonadel))
 
 ### 💡 Others
 
 - Add CLI archive build phase to macOS project. ([#248](https://github.com/expo/orbit/pull/248) by [@gabrieldonadel](https://github.com/gabrieldonadel))
+- Add arch info to Rudder module. ([#252](https://github.com/expo/orbit/pull/252) by [@gabrieldonadel](https://github.com/gabrieldonadel))
 
 ## 2.0.2 — 2025-02-27
 
